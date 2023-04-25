@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue1"
+    android:id="@+id/swiper"
+    tools:context=".AddJobs">
+
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobProgress"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/logoHolder"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/DodgerBlue"
+                app:cardCornerRadius="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/companyLogo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/account"/>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setLogo"
+                android:layout_below="@id/logoHolder"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:text="Set"
+                android:textColor="@color/white"
+                android:textAllCaps="false"/>
+
+            <EditText
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setLogo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Company name"
+                android:padding="12sp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/company"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Company location"
+                android:minHeight="50dp"
+                android:padding="12dp"
+                android:textColorHint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/edtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_below="@+id/edtLocation"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Job title"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60sp"
+                android:text="Describe your job"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/jobDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="90dp"
+                android:layout_below="@id/textDescription"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Job description"
+                android:padding="12sp"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textQualifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jobDescription"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50sp"
+                android:text="Add job requirements"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/jobQualifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textQualifications"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="5sp"
+                android:minHeight="90dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Job qualifications"
+                android:padding="12sp"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/btnPost"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_below="@+id/jobQualifications"
+                android:layout_marginHorizontal="16sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/button"
+                android:text="Post"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:backgroundTint="@null" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    </RelativeLayout>
+
+

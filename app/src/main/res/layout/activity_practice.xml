@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice">
+
+    <EditText
+        android:id="@+id/editExample"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/edit_text_background"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="15sp"
+        android:padding="10sp"
+        android:hint="Name"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@+id/editExample"
+        android:text="Try"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/btnTry"/>
+
+
+</RelativeLayout>

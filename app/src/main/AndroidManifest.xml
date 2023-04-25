@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.communityportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CommunityPortal">
+        <activity
+            android:name=".JobDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ApplicationWebsite"
+            android:exported="false" />
+        <activity
+            android:name=".ApplyJob"
+            android:exported="false" />
+        <activity
+            android:name=".AcademicData"
+            android:exported="false" />
+        <activity
+            android:name=".UserDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ActualMessageSent"
+            android:exported="false" />
+        <activity
+            android:name=".Practice"
+            android:exported="false" />
+        <activity
+            android:name=".AddReport"
+            android:exported="false" />
+        <activity
+            android:name=".ViewJobs"
+            android:exported="false" />
+        <activity
+            android:name=".AddJobs"
+            android:exported="true" />
+        <activity
+            android:name=".ThirdPartyDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Reports"
+            android:exported="false" />
+        <activity
+            android:name=".AuthorityDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Demographics"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Info"
+            android:exported="false" />
+        <activity
+            android:name=".Drawer"
+            android:exported="false" />
+        <activity
+            android:name=".Resident_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPartyLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AuthorityLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ResidentLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPartyRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".AuthorityRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".ResidentRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

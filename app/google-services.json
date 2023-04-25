@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286853207869",
+    "project_id": "community-portal-c136e",
+    "storage_bucket": "community-portal-c136e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286853207869:android:62e6ccd8741b07a5e01754",
+        "android_client_info": {
+          "package_name": "com.example.communityportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286853207869-lolt45ntfh838d697jjh2uam6kn752ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnBJB4-sOqWHoq655ZxIF_OZ9eXMlQa9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286853207869-lolt45ntfh838d697jjh2uam6kn752ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

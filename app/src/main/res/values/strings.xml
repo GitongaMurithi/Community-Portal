@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Community Portal</string>
+    <string name="drawer_closed">close</string>
+    <string name="drawer_open">open</string>
+</resources>

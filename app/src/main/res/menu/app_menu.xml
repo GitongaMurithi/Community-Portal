@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addInfo"
+            android:title="Add Info" />
+    </group>
+
+    <item android:title="*****">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/jobs"
+                    android:title="View jobs" />
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="*****">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/report"
+                    android:title="Add report" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="*****">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
